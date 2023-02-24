@@ -40,12 +40,13 @@ const Profile = (props: Props) => {
           Who I am
         </h3>
         <p>
-          <span className="mb-1 block ">Hi there, I'm Danial!</span> I am a{" "}
+          <span className="mb-1 block ">Hi there, I'm Danial!</span> I am
+          a&nbsp;
           <span className="text-header">Software Developer</span> specializing
           in building website and website applications. I strive to find new
           ways to widen my knowledge within the field, and work in acquiring new
           skills that will help me and my clients receive the best service
-          possible. I have{" "}
+          possible. I have&nbsp;
           <span className="text-header">hands-on experience</span> in planning,
           designing, and developing both static and dynamic websites with user
           experience in mind.
@@ -56,12 +57,12 @@ const Profile = (props: Props) => {
           What I do
         </h3>
         <p>
-          I am devoted to{" "}
-          <span className="text-header">working diligently on all stages</span>{" "}
-          of the development process- from researching the users, to planning
-          the project and finding new possibilities of delivering a better end
-          product, to actually creating the website and watching it come alive
-          to deliver the needs of the client.
+          I am devoted to&nbsp;
+          <span className="text-header">working diligently on all stages</span>
+          &nbsp; of the development process- from researching the users, to
+          planning the project and finding new possibilities of delivering a
+          better end product, to actually creating the website and watching it
+          come alive to deliver the needs of the client.
         </p>
       </section>
       <section className=" flex max-w-max flex-wrap gap-y-3 gap-x-2 px-1">

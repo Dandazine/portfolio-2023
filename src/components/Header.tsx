@@ -44,7 +44,7 @@ const Header = (props: Props) => {
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  });
 
   // to track if user is scrolling up or scrolling down, deciding if nav state should return true or false
   useEffect(() => {
@@ -72,7 +72,7 @@ const Header = (props: Props) => {
     window.addEventListener("resize", updateMedia);
 
     return () => window.removeEventListener("resize", updateMedia);
-  }, []);
+  });
 
   return (
     <header
@@ -81,7 +81,7 @@ const Header = (props: Props) => {
       } duration-200 ease-in`}
     >
       <nav className="mx-auto flex items-center justify-end md:max-w-[1000px]">
-        <a href="/" className="mr-auto">
+        <a href="#" className="mr-auto">
           <Image src="/logo.png" alt="text" width={32} height={32} />
         </a>
         {isMobile === true ? (
