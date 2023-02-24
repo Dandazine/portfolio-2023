@@ -40,7 +40,7 @@ const Profile = (props: Props) => {
           Who I am
         </h3>
         <p>
-          <span className="mb-1 block ">Hi there, I'm Danial!</span> I am
+          <span className="mb-1 block ">Hi there, I&apos;m Danial!</span> I am
           a&nbsp;
           <span className="text-header">Software Developer</span> specializing
           in building website and website applications. I strive to find new
@@ -67,8 +67,8 @@ const Profile = (props: Props) => {
       </section>
       <section className=" flex max-w-max flex-wrap gap-y-3 gap-x-2 px-1">
         <h3 className="w-full text-lg">
-          Click the buttons to see the list of recent technologies I've been
-          using!
+          Click the buttons to see the list of recent technologies I&apos;ve
+          been using!
         </h3>
         {toolkit.map((tools: any, i: number) => (
           <motion.details
@@ -178,30 +178,6 @@ const Exp = (props: Props) => {
           ))}
         </ul>
       </div>
-    </>
-  );
-};
-
-const Testimony = (props: Props) => {
-  const testimonies = [
-    // Wesley
-    { name: "Wesley McGehee", img: "", text: "" },
-    // // Balen
-    // { name: "Balen Dezai", img: "", text: "" },
-    // // Jalen
-    // { name: "Jalen Cameron", img: "", text: "" },
-    // // Reilly
-    // { name: "Reilly LeClaire", img: "", text: "" },
-  ];
-  return (
-    <>
-      {testimonies.map((testimony: any) => (
-        <article className="mx-auto mt-8 w-11/12 px-4 md:w-med lg:w-full">
-          <h3>{testimony.name}</h3>
-          <p>{testimony.text}</p>
-          <p></p>
-        </article>
-      ))}
     </>
   );
 };

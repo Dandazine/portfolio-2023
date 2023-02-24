@@ -6,7 +6,7 @@ const Contact = (props: Props) => {
   return (
     <>
       <div className="mx-auto max-w-[500px] ">
-        <h3 className="mb-4 text-center text-lg">Let's get in touch!</h3>
+        <h3 className="mb-4 text-center text-lg">Let&apos;s get in touch!</h3>
         <p>
           I am currently looking for &nbsp;
           <span className="text-header">part-time</span> and&nbsp;
