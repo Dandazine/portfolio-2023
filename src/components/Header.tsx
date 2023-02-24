@@ -81,7 +81,7 @@ const Header = (props: Props) => {
       } duration-200 ease-in`}
     >
       <nav className="mx-auto flex items-center justify-end md:max-w-[1000px]">
-        <a href="#" className="mr-auto">
+        <a href="#" className="mr-auto" aria-label="site logo">
           <Image src="/logo.png" alt="text" width={32} height={32} />
         </a>
         {isMobile === true ? (

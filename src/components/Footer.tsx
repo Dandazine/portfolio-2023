@@ -18,7 +18,6 @@ const Footer = (props: Props) => {
         stroke="currentColor"
         className="h-8 w-8"
         role="graphics-symbol"
-        aria-label="Email Icon"
       >
         <path
           strokeLinecap="round"
@@ -33,7 +32,6 @@ const Footer = (props: Props) => {
         viewBox="0 0 24 24"
         className="h-8 w-8 fill-light"
         role="graphics-symbol"
-        aria-label="git Icon"
       >
         <path
           fillRule="evenodd"
@@ -48,7 +46,6 @@ const Footer = (props: Props) => {
         viewBox="0 0 24 24"
         className="h-8 w-8 fill-light"
         role="graphics-symbol"
-        aria-label="linkedin Icon"
       >
         <path
           fillRule="evenodd"
@@ -63,9 +60,21 @@ const Footer = (props: Props) => {
     <footer className="mt-auto flex w-full flex-col items-center justify-center bg-boxes">
       <nav className="mt-4 flex flex-wrap items-center justify-center gap-3.7">
         {[
-          { link: "mailto:danial.daneshfar@gmail.com", icon: svg.email },
-          { link: "https://github.com/Dandazine", icon: svg.git },
-          { link: "https://www.linkedin.com/", icon: svg.linkedin },
+          {
+            link: "mailto:danial.daneshfar@gmail.com",
+            label: "link to email",
+            icon: svg.email,
+          },
+          {
+            link: "https://github.com/Dandazine",
+            label: "link to github",
+            icon: svg.git,
+          },
+          {
+            link: "https://www.linkedin.com/in/danialdan/",
+            label: "link to linkedin",
+            icon: svg.linkedin,
+          },
         ].map((anchor: any, i: number) => (
           <motion.a
             key={anchor.link}
@@ -74,6 +83,7 @@ const Footer = (props: Props) => {
             transition={{ duration: (i + 8) / 10, ease: "easeInOut" }}
             viewport={{ once: true }}
             href={anchor.link}
+            aria-label={anchor.label}
             className="after:scale-y-1 relative pb-1 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:origin-center after:scale-x-0 after:bg-light after:duration-300 after:ease-out hover:after:scale-x-75"
           >
             {anchor.icon}

@@ -26,7 +26,7 @@ const Project = (props: Props) => {
     },
     {
       name: "Tanuki",
-      img: "/tanuki.jpg",
+      img: "/Tanuki.jpg",
       alt: "",
       description:
         "Tanuki is a simple javascript game where you need to catch and wash Tanuki within the timelimit. The game has three difficulty settings which shorten the timelimit and increase the amount of times you need to wash Tanuki.",
