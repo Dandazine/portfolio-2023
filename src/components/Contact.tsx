@@ -10,7 +10,7 @@ const Contact = (props: Props) => {
         <p>
           My inbox is always open so please feel free to contact me if there is
           anything you would like to talk about, or if you have a really good
-          potato recipe you'd like to share!
+          potato recipe you would like to share!
         </p>
         <a
           href="mailto:danial.daneshfar@gmail.com"
