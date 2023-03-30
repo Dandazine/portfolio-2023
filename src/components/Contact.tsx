@@ -5,15 +5,12 @@ type Props = {};
 const Contact = (props: Props) => {
   return (
     <>
-      <div className="mx-auto max-w-[500px] rounded-md bg-boxes bg-opacity-95 py-3 px-4 shadow-3xl">
+      <div className="mx-auto max-w-[500px] rounded-md bg-boxes bg-opacity-95 py-5 px-4 shadow-3xl">
         <h3 className="mb-4 text-center text-lg">Let&apos;s get in touch!</h3>
         <p>
-          I am currently looking for &nbsp;
-          <span className="text-header">part-time</span> and&nbsp;
-          <span className="text-header">full-time</span> positions as a&nbsp;
-          <span className="text-header">Software Developer</span>. My inbox is
-          always open, and I tend to respond quickly to emails, so please feel
-          free to contact me if there is anything you would like to talk about!
+          My inbox is always open so please feel free to contact me if there is
+          anything you would like to talk about, or if you have a really good
+          potato recipe you'd like to share!
         </p>
         <a
           href="mailto:danial.daneshfar@gmail.com"

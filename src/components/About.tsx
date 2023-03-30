@@ -15,6 +15,8 @@ const Profile = (props: Props) => {
         "Next.js",
         "Astro.js",
         "PHP",
+        "MySQL",
+        "GROQ",
         "CSS",
         "SASS",
         "TailwindCSS",
@@ -29,6 +31,7 @@ const Profile = (props: Props) => {
         "Illustrator",
         "Adobe XD",
         "Figma",
+        "Sanity Studio",
         "Wordpress",
       ],
     },
@@ -43,13 +46,13 @@ const Profile = (props: Props) => {
           <span className="mb-1 block ">Hi there, I&apos;m Danial!</span> I am
           a&nbsp;
           <span className="text-header">Software Developer</span> specializing
-          in building website and website applications. I strive to find new
-          ways to widen my knowledge within the field, and work in acquiring new
-          skills that will help me and my clients receive the best service
-          possible. I have&nbsp;
-          <span className="text-header">hands-on experience</span> in planning,
-          designing, and developing both static and dynamic websites with user
-          experience in mind.
+          in building high-quality web development solutions as well as offering
+          UX-friendly designs. I strive to find new ways to widen my knowledge
+          within the field, and work in acquiring new skills that will help me
+          and my clients receive the best service possible. I have&nbsp;
+          <span className="text-header">proven hands-on experience</span> in
+          planning, designing, and developing both static and dynamic websites
+          with user experience in mind.
         </p>
       </section>
       <section className="my-8 px-1">
@@ -104,20 +107,19 @@ const Exp = (props: Props) => {
       date: "Nov 2022 - Present",
       company: "Freelance",
       details: [
-        "Handling verbal and written communication with client regarding the projects",
-        "Producing polished and captivating design that garner's attention and reflects the brand's image",
-        "Building, and maintaining websites for clients coming from diverse industries",
-        "Collaborated with talented developers and designers in order to fulfil all short and long-term goals of the project",
+        "Built custom websites and web applications using React.js, Next.js, TypeScript, and other modern web technologies while maintaining a remarkable level of attention to detail and quality.",
+        "Collaborated with other developers, designers, and marketing content creators to produce cohesive and effective web solutions such as portfolios, browser extensions, and JavaScript games.",
+        "Handled verbal and written communication with clients including regular updates for their project and promptly addressing issues that may have arisen.",
       ],
     },
     {
       role: "Web Dev Tutor",
-      date: "Oct 2022 - Present",
+      date: "Oct 2022 - Mar 2023",
       company: "Freelance",
       details: [
-        "Tutored students on semantic HTML code and JavaScript Fundamentals such as Arrays, Functions, Loops, Objects, and Timers",
-        "One-on-one and two-on-one sessions where students were guided through assignments or made to complete personalised practice problems related to the topic the student was struggling in",
-        "Polishing existing skills by breaking down each topic into smaller, more manageable components, and following along best practices",
+        "Tutored students on semantic HTML code, proper CSS targetting, and JavaScript Fundamentals such as Arrays, Functions, Loops, Objects, and Timers",
+        "Facilitated one-on-one or two-on-one sessions where students were guided through assignments or made to complete personalised practice problems related to the topic the student was struggling in.",
+        "Adapted learning material to accomodate for different learning styles, abilities, and levels of experience resulting in positive feedback from students.",
       ],
     },
     {
@@ -125,10 +127,10 @@ const Exp = (props: Props) => {
       date: "May 2022 - Nov 2022",
       company: "BCIT (Degree)",
       details: [
-        "Graduated with Distinction",
-        "Solid understanding of the best practices used in front-end Web Development",
-        "Experience working with HTML, CSS, JavaScript, React, Wordpress, and Shopify",
-        "Knowledgeable in both Agile and Waterfall workflows, and proficient with Git version control",
+        "4.0 GPA - Graduated with Distinction",
+        "Hands-on experience with best practices and industry standards including responsive design, accessibility, and search engine optimization (SEO).",
+        "Strong foundation with front-end programming languages such as HTML, CSS, JavaScript (ES6+), and React.js.",
+        "Demonstrated collaborative skills using both Agile and Waterfall methodologies with a priority to fulfill the needs of the project efficiently and on time.",
       ],
     },
     {
@@ -136,9 +138,10 @@ const Exp = (props: Props) => {
       date: "Jan 2018 - Apr 2022",
       company: "Walmart Pharmacy",
       details: [
-        "Worked in one of Walmart's busiest pharmacies in the mainland Vancouver area, handling over 150 prescriptions daily, alongside medical professionals to ensure a fast and efficient systems making sure that each of the patient's pharmaceutical needs are met",
-        "Responsible for maintaining the inventories of the RX, controlled, and Over-the-Counter (OTC) medications in orders that were upwards of $15,000",
-        "Guaranteed attention to detail when handling prescriptions and the medication preparation to 				determine accurate and a mistake-free workflow",
+        "Worked in one of Walmart's busiest pharmacies, handling over 150 prescriptions daily, alongside medical professionals to ensure a fast and efficient system making sure that each of the patient's pharmaceutical needs are met while maintaining proper documentation.",
+        "Responsible for maintaining the inventories of RX, controlled, and over-the-Counter (OTC) medications with daily orders that were upwards of $15,000.",
+        "Demonstrated strong problem-solving and time-management skills in a fast moving environment, proactively handling issues and prioritizing tasks to prevent any delays in the workflow.",
+        "Utilized exceptional attention to detail to prevent mistakes in processing the prescription, dispensing of medications, and handling the payment methods.",
       ],
     },
   ];

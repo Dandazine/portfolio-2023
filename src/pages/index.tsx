@@ -11,8 +11,6 @@ import Hero from "@/components/Hero";
 import Tab from "@/components/Tab";
 import Contact from "@/components/Contact";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   const [currentTab, setCurrentTab] = useState<string>("profile");
   const handleTab = (value: string) => {
