@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Section from "@/components/Section";
@@ -38,7 +37,7 @@ export default function Home() {
         <Header />
         <main>
           <Hero />
-          <Section
+          {/* <Section
             id="about"
             title="<About />"
             content={
@@ -59,9 +58,9 @@ export default function Home() {
                 {currentTab === "xp" && <Exp />}
               </>
             }
-          />
+          /> */}
 
-          <Section id="services" title="<Services />" content={<Services />} />
+          {/* <Section id="services" title="<Services />" content={<Services />} /> */}
 
           <Section id="projects" title="<Projects />" content={<Project />} />
 

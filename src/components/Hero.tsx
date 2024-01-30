@@ -6,16 +6,17 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <section className="flex h-screen max-h-[756px] flex-col items-center justify-center overflow-x-hidden pt-24">
-      <BgCircles />
+    <section className="flex min-h-[50vh] flex-col items-center justify-center overflow-x-hidden pt-24">
+      {/* <BgCircles /> */}
       <div className="relative z-10 flex flex-col items-center justify-center">
         <p className=" text-[11px] uppercase tracking-[0.5em] text-header md:text-xs">
-          {"<"}Software Developer/{">"}
+          UI/UX Designer
         </p>
         <h1 className=" mt-1.5 mb-2 font-cinzel text-3xl font-medium md:mb-4 md:mt-3 md:text-5xl">
           Danial Daneshfar
         </h1>
-        <nav className=" mb-0.5 flex w-full flex-wrap justify-center text-sm md:text-base ">
+
+        {/* <nav className=" mb-0.5 flex w-full flex-wrap justify-center text-sm md:text-base ">
           {[
             { text: "About", anchor: "#about" },
             { text: "Services", anchor: "#services" },
@@ -30,7 +31,7 @@ const Hero = (props: Props) => {
               {link.text}
             </a>
           ))}
-        </nav>
+        </nav> */}
       </div>
     </section>
   );

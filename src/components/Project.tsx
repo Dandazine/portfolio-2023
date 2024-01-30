@@ -7,20 +7,31 @@ type Props = {};
 const Project = (props: Props) => {
   const projects = [
     {
-      name: "Chef McGehee",
-      img: "/chefmcgehee.jpg",
+      name: "Summer Panda Cafe (Website Redesign)",
+      img: "/spc-design.jpg",
       alt: "",
       description:
-        "Chef McGehee's website is a full stack web portfolio build with Next.js, TypeScript, and Sanity.io to provide private chef Wesley McGehee a platform to market his skills and qualifications to potential employers. ",
-      tools: [
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "Sanity.io",
-        "GROQ",
-        "Github",
-      ],
+        "Summer Panda is a fully customized e-commerce website developed for a Korean dessert cafe to sell and advertise its products online. The website includes information about the cafe and about their menu, and also provides features such as an online shopping cart, and secure payment processing. ",
+      tools: ["Adobe XD", "Photoshop", "Canva"],
       link: null,
+    },
+    {
+      name: "Toronto's Cupcakes (Website Redesign)",
+      img: "/tc-design.jpg",
+      alt: "",
+      description:
+        "A redesigned look of the Toronto Cupcakes website using Adobe XD.",
+      tools: ["WordPress", "WooCommerce", "PHP", "Figma"],
+      link: "https://dribbble.com/shots/23539908-Toronto-Cupcake-Redesign",
+    },
+    {
+      name: "Regenschirm",
+      img: "/regenschirm.jpg",
+      alt: "",
+      description:
+        "Regenschirm is a weather API application that retrieves and displays current weather information using OpenWeatherMap's weather API. Regenschirm can be used to search and fetch a city's weather condition details - such as temperature, humidity, wind speeds, and atmospheric pressure.",
+      tools: ["React.js", "TypeScript", "CSS", "Vite.js", "Github"],
+      link: "https://regenschirm.danial.dev",
     },
     {
       name: "Nomi",
@@ -39,33 +50,6 @@ const Project = (props: Props) => {
         "DanPom is a pomodoro google chrome extension build using JavaScript and Chrome's Alarm API. This extension is intended to prevent the user from slacking off and going on social media apps while the study timer is active.",
       tools: ["JavaScript", "HTML", "CSS", "Github"],
       link: "https://github.com/Dandazine/PomPom",
-    },
-    {
-      name: "Summer Panda",
-      img: "/summerpanda.jpg",
-      alt: "",
-      description:
-        "Summer Panda is a fully customized e-commerce website developed for a Korean dessert cafe to sell and advertise its products online. The website includes information about the cafe and about their menu, and also provides features such as an online shopping cart, and secure payment processing.",
-      tools: ["WordPress", "WooCommerce", "PHP", "Figma"],
-      link: "https://summerpandacafe.bcitwebdeveloper.ca",
-    },
-    {
-      name: "Regenschirm",
-      img: "/regenschirm.jpg",
-      alt: "",
-      description:
-        "Regenschirm is a weather API application that retrieves and displays current weather information using OpenWeatherMap's weather API. Regenschirm can be used to search and fetch a city's weather condition details - such as temperature, humidity, wind speeds, and atmospheric pressure.",
-      tools: ["React.js", "TypeScript", "CSS", "Vite.js", "Github"],
-      link: "https://regenschirm.danial.dev",
-    },
-    {
-      name: "Tanuki",
-      img: "/Tanuki.jpg",
-      alt: "",
-      description:
-        "Tanuki is a simple javascript game where you need to catch and wash Tanuki within the timelimit. The game has three difficulty settings which shorten the timelimit and increase the amount of times you need to wash Tanuki.",
-      tools: ["HTML", "CSS", "JavaScript"],
-      link: "https://tanuki.danial.dev",
     },
   ];
   return (

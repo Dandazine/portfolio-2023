@@ -13,8 +13,8 @@ const Header = (props: Props) => {
 
   const navigation = () => {
     const navLinks = [
-      { link: "#about", text: "About" },
-      { link: "#services", text: "Services" },
+      // { link: "#about", text: "About" },
+      // { link: "#services", text: "Services" },
       { link: "#projects", text: "Projects" },
       { link: "#contact", text: "Contact" },
     ];
