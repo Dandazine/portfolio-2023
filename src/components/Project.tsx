@@ -13,7 +13,7 @@ const Project = (props: Props) => {
       description:
         "Summer Panda is a fully customized e-commerce website developed for a Korean dessert cafe to sell and advertise its products online. The website includes information about the cafe and about their menu, and also provides features such as an online shopping cart, and secure payment processing. ",
       tools: ["Adobe XD", "Photoshop", "Canva"],
-      link: null,
+      link: "https://dribbble.com/shots/23540451-Summer-Panda-Cafe-a-bingsu-website-design",
     },
     {
       name: "Toronto's Cupcakes (Website Redesign)",
@@ -21,7 +21,7 @@ const Project = (props: Props) => {
       alt: "",
       description:
         "A redesigned look of the Toronto Cupcakes website using Adobe XD.",
-      tools: ["WordPress", "WooCommerce", "PHP", "Figma"],
+      tools: ["Adobe XD", "Photoshop", "Canva"],
       link: "https://dribbble.com/shots/23539908-Toronto-Cupcake-Redesign",
     },
     {
